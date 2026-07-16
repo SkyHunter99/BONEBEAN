@@ -1,10 +1,10 @@
-Development Workflow
+Task Lifecycle
 
-Requirement
+Backlog
 
 ↓
 
-Architecture
+RFC
 
 ↓
 
@@ -12,7 +12,7 @@ Design
 
 ↓
 
-Implementation
+Development
 
 ↓
 

@@ -1,49 +1,33 @@
-# Project Memory
+Memory is isolated per tenant.
 
-Project Name
+Structure
 
-Bone Bean AI
+Tenant
 
-Domain
+↓
 
-Liquidity Provider Operating System
+Knowledge
 
-Architecture
+↓
 
-Engine = Deterministic
+History
 
-Agent = LLM
+↓
 
-Runtime = Deterministic
+Strategy
 
-Strategy = JSON
+↓
 
-Marketplace = Revenue
+Conversation
 
-Market APIs = Platform
+↓
 
-AI APIs = User
+Embeddings
 
-Business
+↓
 
-Marketplace First
+Vector Store
 
-Enterprise
+No shared memory.
 
-Multi Tenant
-
-Cloud Native
-
-Plugin Ready
-
-Future
-
-Multi Chain
-
-Multi Exchange
-
-Creator Economy
-
-Workflow Automation
-
-AI Native
+No cross-tenant learning.

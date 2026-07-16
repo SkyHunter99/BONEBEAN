@@ -1,41 +1,45 @@
-# AI Guidelines
+AI MAY
 
-LLM is responsible for:
+Read
 
-Understanding
+Reason
 
-Reasoning
+Explain
 
-Explaining
+Generate
 
-Optimizing
+Optimize
 
-Summarizing
+Validate
 
-Parsing
+Import
 
-Importing
+Export
 
-Generating
+Summarize
 
-LLM is NOT responsible for:
+AI MAY NOT
 
-Trading
+Trade
 
-Execution
+Execute
 
-Indicators
+Harvest
 
-Calculations
+Sign
 
-Portfolio Allocation
+Transfer
 
-Risk Calculation
+Calculate indicators
 
-Trade Decisions
+Access Runtime
 
-Those belong to deterministic engines.
+Access Execution
 
-Runtime must never depend on LLM.
+AI uses
 
-Every strategy produced by AI must pass validation before execution.
+Simulation Engine
+
+Tenant Memory
+
+Knowledge Base

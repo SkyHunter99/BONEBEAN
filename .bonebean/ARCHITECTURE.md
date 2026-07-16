@@ -1,12 +1,8 @@
-# Architecture
-
-The architecture follows strict domain separation.
-
 Apps
 
 ↓
 
-Strategy
+API Gateway
 
 ↓
 
@@ -14,28 +10,70 @@ Runtime
 
 ↓
 
-Engine
+Simulation Engine
 
 ↓
 
-Execution
+Decision Engine
 
 ↓
 
-Providers
+Execution Engine
 
-AI is never inside Engine.
+↓
 
-Engine is always deterministic.
+Event Bus
 
-Agents are the only modules allowed to use LLM.
+↓
 
-Runtime executes compiled strategies without AI.
+Workers
 
-Strategy is JSON.
+↓
 
-Every strategy is portable.
+Feature Engine
 
-Every strategy is versioned.
+↓
 
-Every strategy is marketplace-ready.
+Market Providers
+
+↓
+
+Plugin Loader
+
+↓
+
+Infrastructure
+
+========================
+
+AI Layer
+
+↓
+
+Strategy Agent
+
+↓
+
+Optimization Agent
+
+↓
+
+Market Agent
+
+↓
+
+Tenant Memory
+
+↓
+
+Vector Store
+
+↓
+
+Knowledge
+
+AI never accesses Runtime.
+
+AI never accesses Execution.
+
+AI only uses Simulation Engine.

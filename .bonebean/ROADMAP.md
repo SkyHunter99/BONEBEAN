@@ -2,49 +2,49 @@ Phase 1
 Foundation
 
 Phase 2
-Market Engine
+Core Infrastructure
 
 Phase 3
-Probability Engine
+Plugin Framework
 
 Phase 4
-Scoring Engine
+Market Providers
 
 Phase 5
-Strategy Builder
+Feature Engine
 
 Phase 6
-Runtime
+Probability Engine
 
 Phase 7
-Decision Engine
+Strategy System
 
 Phase 8
-Execution Engine
+Simulation Engine
 
 Phase 9
-Portfolio
+Runtime
 
 Phase 10
-Analytics
+Decision Engine
 
 Phase 11
-Lab
+Portfolio Engine
 
 Phase 12
-AI Core
+Execution Engine
 
 Phase 13
-AI Agents
+Analytics
 
 Phase 14
-Marketplace
+AI
 
 Phase 15
-Automation
+Marketplace
 
 Phase 16
-Plugin System
+Automation
 
 Phase 17
 Monitoring

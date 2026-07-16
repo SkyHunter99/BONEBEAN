@@ -1,29 +1,49 @@
-# Development Rules
+Workflow
 
-Before writing code
+Requirement
 
-1. Understand the requirement.
+↓
 
-2. Identify affected domains.
+Architecture
 
-3. Design architecture.
+↓
 
-4. Define interfaces.
+RFC
 
-5. Implement.
+↓
 
-6. Write tests.
+Domain Design
 
-7. Refactor.
+↓
 
-Never skip architecture.
+Implementation
 
-Never implement business logic inside UI.
+↓
 
-Never duplicate business logic.
+Unit Test
 
-Never bypass Runtime.
+↓
 
-Never bypass Engine.
+Integration Test
 
-Always think about future scalability.
+↓
+
+Simulation
+
+↓
+
+Paper Trading
+
+↓
+
+Production
+
+Every feature requires:
+
+README
+
+Tests
+
+Documentation
+
+Review

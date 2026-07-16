@@ -1,101 +1,29 @@
-# Architecture Decision Records
-
 ADR-001
-
-Decision
-
-Engine never uses LLM.
-
-Status
-
-Accepted
-
-Reason
-
-Deterministic
-
-Repeatable
-
-Low Cost
-
-Easy Testing
-
---------------------------------
+Engine is deterministic.
 
 ADR-002
-
-Decision
-
-Strategy is JSON.
-
-Status
-
-Accepted
-
-Reason
-
-Marketplace
-
-Versioning
-
-Portability
-
---------------------------------
+AI never executes trades.
 
 ADR-003
-
-Decision
-
-Market APIs managed by platform.
-
-Status
-
-Accepted
-
-Reason
-
-Better UX
-
-Easy onboarding
-
-Centralized monitoring
-
---------------------------------
+Strategy is JSON.
 
 ADR-004
-
-Decision
-
-Users bring their own AI API keys.
-
-Status
-
-Accepted
-
-Reason
-
-Lower platform cost
-
-Freedom of provider choice
-
-Scalability
-
---------------------------------
+Runtime executes compiled strategy only.
 
 ADR-005
+Simulation Engine is mandatory.
 
-Decision
+ADR-006
+Plugin Framework is foundational.
 
-Revenue comes from Strategy Marketplace.
+ADR-007
+Worker Architecture.
 
-Status
+ADR-008
+Event Driven.
 
-Accepted
+ADR-009
+Tenant Memory.
 
-Reason
-
-Creator economy
-
-Scalable business model
-
-No dependency on AI token billing
+ADR-010
+Marketplace Revenue Model.

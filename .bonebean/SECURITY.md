@@ -1,21 +1,19 @@
-# Security Rules
+Never store private keys.
 
-Never store wallet private keys.
+Encrypt secrets.
 
-Never log API Keys.
+Tenant isolation.
 
-Encrypt all secrets.
+Audit logs.
 
-Use least privilege.
+Guardian Service.
 
-Audit every execution.
+Kill Switch.
 
-Every strategy execution must generate audit logs.
+RBAC.
 
-Support emergency stop.
+Rate Limiting.
 
-Support kill switch.
+API Key Encryption.
 
-Never trust user input.
-
-Validate everything.
+Read-only AI.
